@@ -67,23 +67,6 @@ function 第二段 () {
     music.playTone(523, music.beat(BeatFraction.Whole))
     music.rest(music.beat(BeatFraction.Whole))
 }
-function 第五段 () {
-    music.playTone(698, music.beat(BeatFraction.Whole))
-    music.playTone(698, music.beat(BeatFraction.Whole))
-    music.playTone(698, music.beat(BeatFraction.Whole))
-    music.rest(music.beat(BeatFraction.Whole))
-    music.playTone(698, music.beat(BeatFraction.Whole))
-    music.playTone(659, music.beat(BeatFraction.Whole))
-    music.playTone(659, music.beat(BeatFraction.Whole))
-    music.playTone(659, music.beat(BeatFraction.Whole))
-    music.playTone(659, music.beat(BeatFraction.Whole))
-    music.playTone(587, music.beat(BeatFraction.Whole))
-    music.playTone(587, music.beat(BeatFraction.Whole))
-    music.playTone(659, music.beat(BeatFraction.Whole))
-    music.playTone(587, music.beat(BeatFraction.Double))
-    music.playTone(784, music.beat(BeatFraction.Whole))
-    music.rest(music.beat(BeatFraction.Whole))
-}
 function 第四段 () {
     music.playTone(659, music.beat(BeatFraction.Whole))
     music.playTone(659, music.beat(BeatFraction.Whole))
@@ -123,7 +106,6 @@ basic.forever(function () {
     第一段()
     第三段()
     第四段()
-    第五段()
     第四段()
     第六段()
     第七段()
